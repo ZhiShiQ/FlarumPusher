@@ -1,0 +1,42 @@
+{
+    "name": "zhishiq/flarum-pusher",
+    "description": "See new discussions and posts in real-time using Pusher. This repo is modified based on flarum/pusher",
+    "type": "flarum-extension",
+    "keywords": ["discussion"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bill Lu",
+            "email": "lubobill1990@163.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ZhiShiQ/flarum-pusher/issues",
+        "source": "https://github.com/ZhiShiQ/flarum-pusher"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.8",
+        "pusher/pusher-php-server": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZhiShiQ\\Flarum\\Pusher\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Advanced Pusher",
+            "icon": {
+                "image": "icon.png",
+                "backgroundSize": "46% 63%",
+                "backgroundPosition": "center",
+                "backgroundRepeat": "no-repeat",
+                "backgroundColor": "#40bad8",
+                "color": "#fff"
+            }
+        }
+    }
+}
